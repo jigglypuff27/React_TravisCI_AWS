@@ -4,4 +4,4 @@ services:
 before_install:
  - docker build -t jigglypuff27/rta -f Dockerfile.dev .
 script:
- - docker run jigglypuff27/rta npm run test -- -- coverage
+ - docker run jigglypuff27/rta npm run test -- --coverage
